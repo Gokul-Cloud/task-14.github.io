@@ -1,0 +1,84 @@
+table{
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  table, td { 
+    border: 1px solid black; 
+    text-align:left; 
+    font-size: 12px;
+    font-family: cursive;
+  } 
+  
+  #inputTable td{
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+  
+  td { 
+    background-color:lightblue; 
+  }
+  
+  .position-abs{
+    position: absolute;
+    left: 18px;
+    top:208px;
+  }
+  
+  .position-rel{
+    position: relative;
+    left: 10px;
+    top:0;
+  }
+  
+  
+  
+  .btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  
+  .btn:hover{
+    color: #fff;
+    outline: 0;
+  }
+  
+  
+  .section{
+    color: black;
+  }
+  
+  .section:hover{
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .black{
+    background-color: lightblue;
+    color: white;
+  }
+  
+  .first {
+    transition: box-shadow 100ms ease-in-out, color 100ms ease-in-out;
+    -webkit-transition: box-shadow 100ms ease-in-out, color 100ms ease-in-out;
+  }
+  
+  .first:hover {
+    box-shadow: 0 0 40px 40px lightgreen inset;
+  }
